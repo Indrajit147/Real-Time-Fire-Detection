@@ -53,7 +53,7 @@ if start_button:
             fire_message.write("🔥 Fire Detected!")
 
             if not st.session_state.alarm_played:
-                alarm_path = 'alarm.mp3'  # Use full path if needed
+                alarm_path = 'alarm.mp3' 
                 if os.path.exists(alarm_path):
                     threading.Thread(target=play_alarm, args=(alarm_path,), daemon=True).start()
                     st.session_state.alarm_played = True
