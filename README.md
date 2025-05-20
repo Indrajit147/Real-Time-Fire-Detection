@@ -1,4 +1,4 @@
-# 🔥 Real-Time Fire Detection System
+# 🔥 Real Time Fire Detection System
 
 A real-time fire detection application built using **YOLO**, **OpenCV**, and **Streamlit**, with an integrated audio alert system powered by **pygame**.
 
