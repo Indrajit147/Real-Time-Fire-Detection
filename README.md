@@ -15,7 +15,7 @@ A real-time fire detection application built using **YOLO**, **OpenCV**, and **S
 
 ## 🖼️ Demo
 
-![fire-detection-demo](demo.gif)
+![fire-detection-demo](demo.mp4)
 
 ---
 
@@ -28,14 +28,13 @@ A real-time fire detection application built using **YOLO**, **OpenCV**, and **S
 
 ---
 
-## 📂 Project Structure
+## 🎓 How It Works
 
-fire-detection/
-│
-├── alarm.mp3
-├── best.pt
-├── app.py
-├── README.md
-└── requirements.txt
+1. Accesses webcam video feed using OpenCV
+2. Runs frame-by-frame detection using a custom YOLOv8 model
+3. If fire is detected (class 0), an alert sound is played
+4. Results are displayed with bounding boxes in the Streamlit UI
+
+---
 
 
